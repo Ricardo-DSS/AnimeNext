@@ -1,4 +1,5 @@
 import mal
+import control
 
 if __name__ == '__main__':
-    mal.genero()
+    control.menu()

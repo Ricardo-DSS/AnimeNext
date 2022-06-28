@@ -1,15 +1,14 @@
 import mal
 
 def menu():
-    print('Você deseja ver algo: ' +
-          '1. Engraçado' +
-          '2. Romântico' +
-          '3. Esportivo' +
-          '4. Misterioso' +
-          '5. Assustador' +
-          '6. Com luta')
+    print('Você deseja ver algo com: ' +
+          '\n1. Ação' +
+          '\n2. Aventura' +
+          '\n3. Carros' +
+          '\n4. Comédia' +
+          '\n5. Vanguarda' +
+          '\n6. Demônios' +
+          '\n7. Mistério')
     opcao = int(input())
+    mal.genero(opcao)
 
-    '''if opcao == 1:
-        estilo = 4
-        mal.genero(estilo)'''
