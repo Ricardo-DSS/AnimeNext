@@ -42,7 +42,7 @@ def menu():
           '\nDigite ' + colored('1', 'cyan', attrs=['bold']) + ' para receber outra recomendação ' +
           'ou qualquer outra tecla para ' + colored('SAIR: ', 'cyan', attrs=['bold']))
     again = input()
-    if again == 1:
+    if again == '1':
         menu()
     else:
         quit()
